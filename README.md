@@ -167,30 +167,30 @@ for t in range(1000):
     if t%100 ==0:
         print('Loss = %.4f' % loss.data)
 ```
-Net_1(
-  (linears): Sequential(
-    (0): Linear(in_features=2, out_features=1024, bias=True)
-    (1): ReLU(inplace=True)
-    (2): Dropout(p=0.5, inplace=False)
-    (3): Linear(in_features=1024, out_features=1024, bias=True)
-    (4): ReLU(inplace=True)
-    (5): Dropout(p=0.5, inplace=False)
-    (6): Linear(in_features=1024, out_features=1024, bias=True)
-    (7): ReLU(inplace=True)
-    (8): Dropout(p=0.5, inplace=False)
-    (9): Linear(in_features=1024, out_features=1, bias=True)
-  )
-)
-Loss = 33906.8633
-Loss = 334.8231
-Loss = 269.7854
-Loss = 248.1467
-Loss = 290.9594
-Loss = 238.1143
-Loss = 214.1551
-Loss = 216.3815
-Loss = 196.5995
-Loss = 267.9281
+Net_1(  
+  (linears): Sequential(  
+    (0): Linear(in_features=2, out_features=1024, bias=True)  
+    (1): ReLU(inplace=True)  
+    (2): Dropout(p=0.5, inplace=False)  
+    (3): Linear(in_features=1024, out_features=1024, bias=True)  
+    (4): ReLU(inplace=True)  
+    (5): Dropout(p=0.5, inplace=False)  
+    (6): Linear(in_features=1024, out_features=1024, bias=True)  
+    (7): ReLU(inplace=True)  
+    (8): Dropout(p=0.5, inplace=False)  
+    (9): Linear(in_features=1024, out_features=1, bias=True)  
+  )  
+)  
+Loss = 33906.8633  
+Loss = 334.8231  
+Loss = 269.7854  
+Loss = 248.1467  
+Loss = 290.9594  
+Loss = 238.1143  
+Loss = 214.1551  
+Loss = 216.3815  
+Loss = 196.5995  
+Loss = 267.9281  
 
 ```
 net2 = Net_2(2,1024,1)
